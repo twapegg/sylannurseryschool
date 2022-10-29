@@ -1,0 +1,511 @@
+@import url("https://fonts.googleapis.com/css2?family=Alkalami&family=Montserrat&family=Prata&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Prata", serif;
+	justify-content: center;
+}
+
+body {
+	background: white;
+	height: 1000px;
+}
+
+section {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+section img {
+	position: absolute;
+	top: -5%;
+	width: 100%;
+	height: 50%;
+	pointer-events: none;
+}
+
+#text {
+	position: relative;
+	color: #fff;
+	font-size: 3em;
+	z-index: 1;
+	top: -20%;
+	right: 20%;
+}
+
+.qu {
+	position: relative;
+	top: -30%;
+	color: gray;
+	font-size: 50px;
+	font-weight: bold;
+	font-family: "Montserrat", sans-serif;
+	width: 1220px;
+	left: 10%;
+}
+
+.con1 {
+	background-color: white;
+	height: 50%;
+	width: 20%;
+	position: relative;
+	top: -20%;
+	left: 43%;
+	border-radius: 30px;
+	box-shadow: 10px 10px 10px 10px black;
+}
+
+.zendaya {
+	background-color: rgb(47, 39, 39);
+	height: 60%;
+	width: 80%;
+	position: relative;
+	top: 5%;
+	left: 10%;
+	border-radius: 30px;
+	background-image: url(zendaya.jpg);
+	background-size: cover;
+}
+
+.zen-desc {
+	position: absolute;
+	top: 70%;
+	color: rgb(232, 171, 171);
+	font-size: 20px;
+	font-weight: bold;
+	font-family: "Montserrat", sans-serif;
+	width: 320px;
+	left: 10%;
+}
+
+.role {
+	position: absolute;
+	top: 77%;
+	color: gray;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: "Montserrat", sans-serif;
+	width: 120px;
+	left: 40%;
+}
+
+.mail {
+	position: absolute;
+	top: 86%;
+	color: gray;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: "Montserrat", sans-serif;
+	width: 100px;
+	left: 33%;
+	transition: all 0.3s ease-out;
+	background-color: white;
+	border-radius: 20px;
+	border: solid 3px gray;
+	padding: 5px;
+}
+
+.mail:hover {
+	transform: translateY(-10px);
+}
+
+.con2 {
+	background-color: rgb(255, 255, 255);
+	height: 50%;
+	width: 20%;
+	position: relative;
+	top: -10%;
+	left: 43%;
+	border-radius: 30px;
+	box-shadow: 10px 10px 10px 10px black;
+}
+
+.olsen {
+	background-color: rgb(47, 39, 39);
+	height: 60%;
+	width: 80%;
+	position: relative;
+	top: 5%;
+	left: 10%;
+	border-radius: 30px;
+	background-image: url(olsenn.jpg);
+	background-size: cover;
+}
+
+.olsen-desc {
+	position: absolute;
+	top: 70%;
+	color: rgb(232, 171, 171);
+	font-size: 20px;
+	font-weight: bold;
+	font-family: "Montserrat", sans-serif;
+	width: 320px;
+	left: 20%;
+}
+
+.role1 {
+	position: absolute;
+	top: 77%;
+	color: gray;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: "Montserrat", sans-serif;
+	width: 200px;
+	left: 32%;
+}
+
+.mail1 {
+	position: absolute;
+	top: 86%;
+	color: gray;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: "Montserrat", sans-serif;
+	width: 100px;
+	left: 33%;
+	transition: all 0.3s ease-out;
+	background-color: white;
+	border-radius: 20px;
+	border: solid 3px gray;
+	padding: 5px;
+}
+
+.mail1:hover {
+	transform: translateY(-10px);
+}
+
+.con3 {
+	background-color: rgb(255, 255, 255);
+	height: 50%;
+	width: 20%;
+	position: relative;
+	top: -3%;
+	left: 43%;
+	border-radius: 30px;
+	box-shadow: 10px 10px 10px 10px black;
+}
+
+.evans {
+
+	background-color: rgb(47, 39, 39);
+	height: 60%;
+	width: 80%;
+	position: relative;
+	top: 5%;
+	left: 10%;
+	border-radius: 30px;
+	background-image: url(evans.jpg);
+	background-size: cover;
+}
+
+.evans-desc {
+	position: absolute;
+	top: 70%;
+	color: rgb(232, 171, 171);
+	font-size: 20px;
+	font-weight: bold;
+	font-family: "Montserrat", sans-serif;
+	width: 400px;
+	left: 28%;
+}
+
+.role2 {
+	position: absolute;
+	top: 77%;
+	color: gray;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: "Montserrat", sans-serif;
+	width: 400px;
+	left: 30%;
+}
+
+.mail2 {
+	position: absolute;
+	top: 86%;
+	color: gray;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: "Montserrat", sans-serif;
+	width: 100px;
+	left: 33%;
+	transition: all 0.3s ease-out;
+	background-color: white;
+	border-radius: 20px;
+	border: solid 3px gray;
+	padding: 5px;
+}
+
+.mail2:hover {
+	transform: translateY(-10px);
+}
+
+.con4 {
+	background-color: rgb(255, 255, 255);
+	height: 50%;
+	width: 20%;
+	position: relative;
+	top: 5%;
+	left: 43%;
+	border-radius: 30px;
+	box-shadow: 10px 10px 10px 10px black;
+}
+
+.ryan {
+	background-color: rgb(47, 39, 39);
+	height: 60%;
+	width: 80%;
+	position: relative;
+	top: 5%;
+	left: 10%;
+	border-radius: 30px;
+	background-image: url(ryan.jpg);
+	background-size: cover;
+}
+
+.ryan-desc {
+	position: absolute;
+	top: 70%;
+	color: rgb(232, 171, 171);
+	font-size: 20px;
+	font-weight: bold;
+	font-family: "Montserrat", sans-serif;
+	width: 400px;
+	left: 23%;
+}
+
+.role3 {
+	position: absolute;
+	top: 77%;
+	color: gray;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: "Montserrat", sans-serif;
+	width: 400px;
+	left: 20%;
+}
+
+.mail3 {
+	position: absolute;
+	top: 86%;
+	color: gray;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: "Montserrat", sans-serif;
+	width: 100px;
+	left: 33%;
+	transition: all 0.3s ease-out;
+	background-color: white;
+	border-radius: 20px;
+	border: solid 3px gray;
+	padding: 5px;
+}
+
+.mail3:hover {
+	transform: translateY(-10px);
+}
+
+.con5 {
+	background-color: rgb(255, 255, 255);
+	height: 50%;
+	width: 20%;
+	position: relative;
+	top: 13%;
+	left: 43%;
+	border-radius: 30px;
+	box-shadow: 10px 10px 10px 10px black;
+}
+
+.rock {
+	background-color: rgb(47, 39, 39);
+	height: 60%;
+	width: 80%;
+	position: relative;
+	top: 5%;
+	left: 10%;
+	border-radius: 30px;
+	background-image: url(rock.jpg);
+	background-size: cover;
+}
+
+.rock-desc {
+	position: absolute;
+	top: 70%;
+	color: rgb(232, 171, 171);
+	font-size: 20px;
+	font-weight: bold;
+	font-family: "Montserrat", sans-serif;
+	width: 400px;
+	left: 18%;
+}
+
+.role4 {
+	position: absolute;
+	top: 77%;
+	color: gray;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: "Montserrat", sans-serif;
+	width: 200px;
+	left: 30%;
+}
+
+.mail4 {
+	position: absolute;
+	top: 86%;
+	color: gray;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: "Montserrat", sans-serif;
+	width: 100px;
+	left: 33%;
+	transition: all 0.3s ease-out;
+	background-color: white;
+	border-radius: 20px;
+	border: solid 3px gray;
+	padding: 5px;
+}
+
+.mail4:hover {
+	transform: translateY(-10px);
+}
+
+.text1 {
+	color: #d7b7b7;
+	font-size: 19px;
+	font-family: "Montserrat", sans-serif;
+	font-size: 18px;
+	text-align: justify;
+	display: flex;
+}
+
+li,
+a,
+button {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	color: gray;
+	text-decoration: none;
+	top: 1px;
+	position: relative;
+	font-weight: bold;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 10%;
+	position: sticky;
+	top: -10px;
+	height: 80px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	width: 100%;
+	height: 50px;
+	background-color: white;
+	opacity: 0.8;
+}
+
+.nav_links {
+	list-style: none;
+	position: sticky;
+}
+
+.nav_links li {
+	display: inline-block;
+	padding: 0px 20px;
+	left: -400px;
+}
+
+.nav_links li a:hover {
+	color: #543636;
+}
+
+.nursery {
+	font-family: "Prata", serif;
+	font-size: 20;
+	color: gray;
+	font-weight: bold;
+	position: relative;
+	top: 10px;
+}
+
+.margin {
+	margin: 20% 0;
+	top: 100%;
+}
+
+.parallax {
+	background: url(new.png) repeat fixed 100%;
+	height: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.parallax-inner {
+	padding-top: 20%;
+	padding-bottom: 20%;
+}
+
+.line1 {
+	background-color: rgb(255, 255, 255);
+	height: 8%;
+	position: absolute;
+	top: 25%;
+	width: 1%;
+	left: 8%;
+}
+
+.top {
+	background-repeat: no-repeat;
+	top: 590px;
+	position: fixed;
+	font-family: "Montserrat", sans-serif;
+	left: 95%;
+	color: white;
+	transition: all 0.3s ease-out;
+	background-color: gray;
+	width: 18px;
+	align-items: center;
+	border-radius: 20px;
+	border: solid 3px white;
+	padding: 5px;
+}
+
+.top:hover {
+	transform: translateY(-10px);
+}
+
+.bot {
+  	background-repeat: no-repeat;
+	top: 650px;
+	position: fixed;
+	font-family: "Montserrat", sans-serif;
+	left: 95%;
+	color: white;
+	transition: all 0.3s ease-out;
+	background-color: gray;
+	width: 18px;
+	align-items: center;
+	border-radius: 20px;
+	border: solid 3px white;
+	padding: 5px;
+    z-index: 1;
+}
+
+.bot:hover {
+	transform: translateY(-10px);
+}

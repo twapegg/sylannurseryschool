@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="home.css">
+    <link rel="stylesheet" type="text/css" href="themes.css">
+    <link rel="icon" type="image/x-icon" href="logo.png">
+    <script src="home.js"></script>
+  </head>
+  <body id="def_mode">
+    <a name="top"></a>
+    <header id="header">
+      <div class="nursery" id="sylan">SYLAN</div>
+      <nav>
+        <ul class="nav_links">
+          <li>
+            <a href="index.html" id="links">Home</a>
+          </li>
+          <li>
+            <a href="about.html" id="links1">About</a>
+          </li>
+          <li>
+            <a href="fas.html" id="links2">Faculty and Staffs</a>
+          </li>
+          <li>
+            <a href="faqs.html" id="links3">FAQs</a>
+          </li>
+          <li>
+            <div class="popup1" onclick="popup()" id="links4">Themes 
+              <div class="popuptext" id="myPopup">
+                <div class="def">
+                  <a href="javascript:onclick=def_mode(this.form)" >Default</a>
+                </div>
+                <div class="sum">
+                  <a href="javascript:onclick=sum_mode(this.form)">Summer</a>
+                </div>
+                <div class="chris">
+                  <a href="javascript:onclick=chris_mode(this.form)">Christmas</a>
+                </div>
+                <div class="hal">
+                  <a href="javascript:onclick=hal_mode(this.form)">Halloween</a>
+                </div>
+                <div class="val">
+                  <a href="javascript:onclick=val_mode(this.form)">Valentines</a>
+                </div>
+                <div class="eas">
+                  <a href="javascript:onclick=eas_mode(this.form)">Easter</a>
+                </div>
+                <div class="new">
+                  <a href="javascript:onclick=new_mode(this.form)">New Year</a>
+                </div>
+              </div>
+            </div>
+        </ul>
+        <a class="button" href="#popupbox" id="links5">Log in</a>
+        <div id="popupbox" class="overlay">
+          <div class="popup">
+            <a class="close" href="#">&times;</a>
+            <form class="box" action="index.html">
+              <h1> Log in your acccount </h1>
+              <input type="text" name="" placeholder="Enter username" id="username" required>
+              <input type="password" name="" placeholder="Enter password" id="password" required>
+              <div class="select">
+                <select>
+                  <option selected disabled>Type of User</option>
+                  <option value="Parent">Parent</option>
+                  <option value="Teacher">Teacher</option>
+                  <option value="Student">Student</option>
+                </select>
+              </div>
+              <input type="submit" value="Login" onclick="validate()">
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section>
+      <img src="try.png" id="bg">
+      <img src="sc.png" id="school">
+      <div id="text-sylan">SYLAN</div>
+      <div id="text-school">Nursery School</div>
+    </section>
+   
+    <a href="#bottom">
+      <div class="bot" id="bott">🢃</div>
+    </a>
+    <div class="con">
+      <div class="ab-pic">
+        <a href="about.html">
+          <img src="ab (5).png">
+        </a>
+        <div class="ann-box">
+          <div class="ann" id="ann_def">ANNOUNCEMENTS</div>
+        </div>
+      </div>
+      <div class="announce">
+        <div class="ann-img">
+          <img src="ann.png">
+          <div class="blink">ENROLLMENT: NOW OPEN!</div>
+        </div>
+        <div class="ann-desc" id="ann-desc">On September 26, 2022, enrollment for Sylan Nursery School has officially started.</div>
+      </div>
+      <div class="announce1">
+        <div class="ann-img1">
+          <img src="thanks.png">
+          <div class="blink1">GIVING THANKS</div>
+        </div>
+        <div class="ann-desc1" id="ann-desc1">Sylan Nursery School expresses heartfelt gratitude to the parents, faculty, and staff for their persistent efforts. The school would not flourish without them.</div>
+      </div>
+    </div>
+    
+    <div class="container">
+      <div class="offer1">What We Offer
+        <hr />
+      </div>
+      <div class="arts-and-crafts arts-and-crafts-pic1"></div>
+      <div class="nn">ARTS AND CRAFTS</div>
+      <div class="arts-and-crafts arts-and-crafts-pic2"></div>
+      <div class="dam">DANCING AND MUSIC</div>
+      <div class="arts-and-crafts arts-and-crafts-pic3"></div>
+      <div class="lang">LANGUAGES</div>
+    </div>
+    
+    <div class="cri"></div>
+    <div class="cri1">
+      <div class="critext" id="critext">ADMISSION REQUIREMENTS</div>
+      <div class="critext2">ENROLLMENT CRITERIA</div>
+      <ul>
+        <li id="en1">By the first day of school, the student must be three years old. Students who turn three after the first day but before September 15 will be eligible if space is available.</li>
+        <li id="en2">The student must be properly toilet trained and bathroom independent. Pull-ups and other training undergarments are not permitted for children.</li>
+      </ul>
+      <div class="critext3">ENROLLMENT REQUIREMENTS</div>
+      <ol>
+        <li id="en3">2 pcs. 2×2 pictures</li>
+        <li id="en4">Clear copy of Birth Certificate</li>
+        <li id="en5">Medical Certificate</li>
+        <li id="en6">Downpayment of Php 500</li>
+      </ol>
+    </div>
+    <div class="learn">
+      <div class="learndef">HAVE ANY QUESTIONS?</div>
+      <div class="learn1">
+        <a href="faqs.html">KNOW MORE</a>
+      </div>
+      <div class="ask">Or Contact Us Here</div>
+      <a href="https://m.facebook.com/profile.php?id=100087144316693">
+        <img src="fb1.png" class="fb">
+      </a>
+      <a href="mailto: sylannurseryschool@gmail.com">
+        <img src="mail.png" class="ma">
+      </a>
+      <a href="tel:09760156425">
+        <img src="pho.png" class="phone">
+      </a>
+    </div>
+    <a name="bottom"></a>
+    <a href="#top">
+      <div class="top" id="topp">🢁</div>
+    </a>
+   
+    <div class="margin">
+      <div class="parallax">
+        <div class="parallax-inner"></div>
+      </div>
+    </div>
+  </body>
+</html>
